@@ -1,0 +1,30 @@
+﻿
+@page "/ParentComponent"
+    <ul>
+    @foreach (var cBoxItem in uIClient.cboxs)
+    {
+        <myComponent bind-myVar="@cBoxItem"></myComponent>
+    }
+    </ul>
+    <input placeholder="Something todo" />
+    <button>Add todo</button>
+    @functions {
+    private string Message { get; set; } = "";
+    void ButtonClicked()
+    {
+        Message = "Button Clicked";
+    }
+    }
+@code {
+    [Parameter]
+    public Models.UIClient uIClient { get; set; }
+
+
+    public string Title { get; set; }
+
+}
+
+
+
+
+
