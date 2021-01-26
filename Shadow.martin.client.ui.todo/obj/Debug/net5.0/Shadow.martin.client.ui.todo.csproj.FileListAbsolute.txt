@@ -207,3 +207,7 @@ D:\Users\DeVilliers\source\repos\Shadow.martin.todo\Shadow.martin.client.ui.todo
 D:\Users\DeVilliers\source\repos\Shadow.martin.todo\Shadow.martin.client.ui.todo\obj\Debug\net5.0\build-gz\J+t7VlOL.gz
 D:\Users\DeVilliers\source\repos\Shadow.martin.todo\Shadow.martin.client.ui.todo\obj\Debug\net5.0\build-gz\sSXxvhzx.gz
 D:\Users\DeVilliers\source\repos\Shadow.martin.todo\Shadow.martin.client.ui.todo\obj\Debug\net5.0\build-gz\Bl+Ii25m.gz
+D:\Users\DeVilliers\source\repos\Shadow.martin.todo\Shadow.martin.client.ui.todo\obj\Debug\net5.0\Shadow.martin.client.ui.todo.csproj.CoreCompileInputs.cache
+D:\Users\DeVilliers\source\repos\Shadow.martin.todo\Shadow.martin.client.ui.todo\obj\Debug\net5.0\Shadow.martin.client.ui.todo.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\DeVilliers\source\repos\Shadow.martin.todo\Shadow.martin.client.ui.todo\obj\Debug\net5.0\RazorDeclaration\Components\CheckboxWidget.razor.g.cs
+D:\Users\DeVilliers\source\repos\Shadow.martin.todo\Shadow.martin.client.ui.todo\obj\Debug\net5.0\RazorDeclaration\Pages\Todo.razor.g.cs
