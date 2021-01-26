@@ -82,6 +82,7 @@ using Shadow.martin.client.ui.todo.Shared;
 #line default
 #line hidden
 #nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/ParentComponent")]
     public partial class CheckboxWidget : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -90,20 +91,16 @@ using Shadow.martin.client.ui.todo.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 9 "D:\Users\DeVilliers\source\repos\Shadow.martin.todo\Shadow.martin.client.ui.todo\Components\CheckboxWidget.razor"
+#line 17 "D:\Users\DeVilliers\source\repos\Shadow.martin.todo\Shadow.martin.client.ui.todo\Components\CheckboxWidget.razor"
        
     [Parameter]
-    UIClient uIClient = value;
+    public Models.UIClient uIClient { get; set; }
 
-    private int latestEventID=uIClient.;
-    public List<CBox> cBox{ get; set;}
-
-    [Parameter]
-    public string Title { get; set; }
-
-
-   
-
+    private string Message { get; set; } = "";
+    void ButtonClicked(UIMouseEventArgs e)
+        {
+            Message = "Button Clicked";
+        }
 
 
 #line default

@@ -91,18 +91,15 @@ using Shadow.martin.client.ui.todo.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 22 "D:\Users\DeVilliers\source\repos\Shadow.martin.todo\Shadow.martin.client.ui.todo\Pages\Todo.razor"
+#line 6 "D:\Users\DeVilliers\source\repos\Shadow.martin.todo\Shadow.martin.client.ui.todo\Pages\Todo.razor"
        
-    
-
-    private UIClient uiClient;
-
     protected override async Task OnInitializedAsync()
     {
-        //uiClient = await Http.GetFromJsonAsync<UIClient[]>("sample-data/weather.json");
+        dynamic uIClient = await Http.GetFromJsonAsync<Models.UIClient[]>("sample-data/weather.json");
     }
-
-
+    private dynamic latestEventID = uIClient.cboxs.Count();
+    
+   
 
 #line default
 #line hidden
