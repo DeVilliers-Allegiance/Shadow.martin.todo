@@ -10,13 +10,13 @@ using System.Text.Json;
 
 namespace Shadow.martin.clients.infrastructure
 {
-    public class Infrastructure
+    public class EventService
     {
 
         //make sure your docker is set up, you have wsl2 set up
         //docker pull eventstore/eventstore
         //docker run --name esdb-node -it -p 2113:2113 -p 1113:1113 eventstore/eventstore:latest --insecure --run-projections=All
-
+        //this image is meant not to be persistent and wiped when docker is closed, not for production!!
     }
 
     internal class IPEndPointFactory

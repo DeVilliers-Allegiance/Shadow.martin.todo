@@ -7,20 +7,22 @@
     }
     </ul>
     <input placeholder="Something todo" />
-    <button>Add todo</button>
-    @functions {
-    private string Message { get; set; } = "";
-    void ButtonClicked()
-    {
-        Message = "Button Clicked";
-    }
-    }
+    <button onclick=@ButtonClicked>Add todo</button>
+    
+
+
+
+
+
 @code {
     [Parameter]
     public Models.UIClient uIClient { get; set; }
 
-
-    public string Title { get; set; }
+    private string Message { get; set; } = "";
+    void ButtonClicked(UIMouseEventArgs e)
+        {
+            Message = "Button Clicked";
+        }
 
 }
 

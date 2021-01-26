@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Shadow.Martin.Clients.Domain.Events;
+using System;
 using System.Collections.Generic;
 using System.Text;
 

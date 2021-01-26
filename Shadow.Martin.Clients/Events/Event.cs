@@ -4,5 +4,5 @@ using System.Text;
 
 namespace Shadow.Martin.Clients.Domain.Events
 {
-    
+    public record Event(string EventType);
 }

@@ -6,8 +6,8 @@
 @code {
     protected override async Task OnInitializedAsync()
     {
-        uIClient = await Http.GetFromJsonAsync<Models.UIClient[]>("sample-data/weather.json");
-        
-    private dynamic latestEventID = uIClient.cboxs.Count();
+        dynamic uIClient = await Http.GetFromJsonAsync<Models.UIClient[]>("sample-data/weather.json");
     }
-   
+    private dynamic latestEventID = uIClient.cboxs.Count();
+    
+   }
