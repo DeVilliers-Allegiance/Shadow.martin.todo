@@ -96,11 +96,7 @@ using Shadow.martin.client.ui.todo.Shared;
     [Parameter]
     public Models.UIClient uIClient { get; set; }
 
-    private string Message { get; set; } = "";
-    void ButtonClicked(UIMouseEventArgs e)
-        {
-            Message = "Button Clicked";
-        }
+
 
 
 #line default

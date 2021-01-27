@@ -24,6 +24,14 @@ namespace Shadow.martin.client.ui.todo.Models
             this.clientId = clId;
             this.cboxs = cBoxes;
         }
-
+        public UIClient(int clId)
+        {
+            this.firstName = "Tom";
+            this.clientId = clId;
+            this.cboxs = new List<CBox>
+            {
+                new CBox(0, false, "read my first to do.")
+            };
+        }
     }
 }

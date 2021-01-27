@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Shadow.Martin.Clients
 {
-    class Interfaces
+    public class Interfaces
     {
     }
 }

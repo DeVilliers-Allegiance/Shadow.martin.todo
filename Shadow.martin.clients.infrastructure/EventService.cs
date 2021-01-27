@@ -52,12 +52,13 @@ namespace Shadow.martin.clients.infrastructure
     }
     //public async Task<Client> GetClient(Guid clientId)
     //{
-    //    //var events = eventStoreClient.ReadStreamAsync(Direction.Forwards, $"client-{clientId}", StreamPosition.Start);
+    //    var events = EventStore.ClientAPI.ReadDirection.Forward,
+    //        //.ReadStreamAsync(Direction.Forwards, $"client-{clientId}", StreamPosition.Start);
     //    Client client = null;
 
     //    await foreach (var ev in events)
     //    {
-    //       // client = JsonConvert.DeserializeObject<Client>(Encoding.UTF8.GetString(events.Current.Event.Data.Span));
+    //        client = JsonConvert.DeserializeObject<Client>(Encoding.UTF8.GetString(events.Current.Event.Data.Span));
     //    }
 
     //    return client;
