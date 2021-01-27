@@ -91,12 +91,19 @@ using Shadow.martin.client.ui.todo.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 17 "D:\Users\DeVilliers\source\repos\Shadow.martin.todo\Shadow.martin.client.ui.todo\Components\CheckboxWidget.razor"
+#line 27 "D:\Users\DeVilliers\source\repos\Shadow.martin.todo\Shadow.martin.client.ui.todo\Components\CheckboxWidget.razor"
        
     [Parameter]
     public Models.UIClient uIClient { get; set; }
 
 
+    private Models.UIClient currentUIuser = new Models.UIClient(1);
+
+    private void HandleValidSubmit()
+    {
+        
+    }
+    public EventCallback<MouseEventArgs> OnClickAdd { get; set; }
 
 
 #line default
